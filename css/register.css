@@ -1,0 +1,111 @@
+/* 注册页专有样式 */
+/* header模块 */
+.header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+.header img {
+    padding-top: 15px;
+}
+/* 主体部分 */
+.registerarea {
+    height: 652px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 41px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #ececec;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+.registerarea h3 span {
+    float: right;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.reg_form {
+    width: 600px;
+    margin: 54px auto;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul .safe {
+    margin-left: 164px;
+    color: #b2b2b2;
+}
+.reg_form ul li em {
+    padding: 0 12px;
+    color: #fff;
+}
+.reg_form ul li .ruo {
+    margin-left: 8px;
+    background-color: #de1111;
+}
+.reg_form ul li .zhong {
+    background-color: #40b83f;
+}
+.reg_form ul li .qiang {
+    background-color: #f79100;
+}
+.reg_form label {
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+}
+.reg_form .ipt {
+    height: 36px;
+    width: 241px;
+    border: 1px solid #999;
+    margin:0 10px;
+}
+.reg_form .error {
+    color: #df3033;
+}
+.reg_form .right {
+    color: green;
+}
+.reg_form .error_icon,
+.reg_form .right_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.reg_form .right_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.reg_form .agree {
+    margin:42px 0 50px 92px;
+}
+.reg_form .agree input {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.reg_form .btn {
+    width: 200px;
+    height: 34px;
+    margin-left: 100px;
+    background-color: #c81623;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+/* footer部分 */
+.footer {
+    height: 119px;
+    padding-top: 24px;
+}
+.footer p {
+    text-align: center;
+}
+.adress {
+    margin-bottom: 5px;
+}
